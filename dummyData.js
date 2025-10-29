@@ -1,4 +1,4 @@
-import person from "./src/assets/person/person1.jpg";
+import person from "./src/assets/person/person1.JPG";
 import jerry from "./src/assets/person/jerry.webp";
 import mickeymouse from "./src/assets/person/mickeymouse.jpeg";
 import tom from "./src/assets/person/tom.jpeg";
