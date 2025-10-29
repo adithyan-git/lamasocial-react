@@ -7,7 +7,7 @@ import jerry from "../../assets/person/jerry.webp";
 import mickeymouse from "../../assets/person/mickeymouse.jpeg";
 import tom from "../../assets/person/tom.webp";
 import pickachu from "../../assets/person/pickachu.png";
-import chottabeam from "./src/assets/person/chottabeam.jpeg";
+import chottabeam from "../../assets/person/chottabeam.jpeg";
 
 const RightbarComponent = ({ Profile }) => {
   const HomeRightbar = () => {
