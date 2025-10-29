@@ -1,7 +1,6 @@
-import React from "react";
 import { users } from "../../../dummyData";
 import OnlineFriends from "../online/OnlineFriends";
-const RightBar = ({ Profile }) => {
+const RightbarComponent = ({ Profile }) => {
   const HomeRightbar = () => {
     return (
       <>
@@ -122,4 +121,4 @@ const RightBar = ({ Profile }) => {
   );
 };
 
-export default RightBar;
+export default RightbarComponent;

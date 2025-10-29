@@ -1,8 +1,8 @@
 import React from "react";
 import TopBar from "../topbar/TopBar";
-import Feed from "../feed/feed";
-import RightBar from "../rightbar/rightbar";
 import LeftSidebar from "../sidebar/LeftSidebar";
+import FeedComponent from "../feed/FeedComponent";
+import RightbarComponent from "../rightbar/RightbarComponent";
 
 const Profile = () => {
   return (
@@ -30,8 +30,8 @@ const Profile = () => {
             </div>
           </div>
           <div className="flex">
-            <Feed />
-            <RightBar Profile />
+            <FeedComponent />
+            <RightbarComponent Profile />
           </div>
         </div>
       </div>
