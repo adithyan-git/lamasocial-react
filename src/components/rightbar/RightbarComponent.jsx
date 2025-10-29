@@ -7,6 +7,7 @@ import jerry from "../../assets/person/jerry.webp";
 import mickeymouse from "../../assets/person/mickeymouse.jpeg";
 import tom from "../../assets/person/tom.webp";
 import pickachu from "../../assets/person/pickachu.png";
+import chottabeam from "./src/assets/person/chottabeam.jpeg";
 
 const RightbarComponent = ({ Profile }) => {
   const HomeRightbar = () => {
@@ -68,7 +69,7 @@ const RightbarComponent = ({ Profile }) => {
           </div>
           <div className="flex flex-col mb-5 cursor-pointer">
             <img
-              src="./src/assets/person/chottabeam.jpeg"
+              src={chottabeam}
               alt=""
               className="w-[100px] h-[100px] object-cover rounded-[5px]"
             />
