@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmojiEmotions, MdLabel, MdPermMedia } from "react-icons/md";
-import person from "../../assets/person/person1.jpg";
+import person from "../../assets/person/person1.JPG";
 
 const Share = () => {
   return (

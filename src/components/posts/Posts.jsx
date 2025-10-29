@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FiMoreVertical } from "react-icons/fi";
-import person from "../../assets/person/person1.jpg";
+import person from "../../assets/person/person1.JPG";
 import Like from "../../assets/posts/like.png";
 import heart from "../../assets/posts/heart.png";
 

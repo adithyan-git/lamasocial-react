@@ -5,7 +5,7 @@ import { MdChat } from "react-icons/md";
 import { IoMdNotifications } from "react-icons/io";
 import LeftSidebar from "../sidebar/LeftSidebar";
 import menubar from "../../assets/person/menu-bar.png";
-import person from "../../assets/person/person1.jpg";
+import person from "../../assets/person/person1.JPG";
 import menu from "../../assets/posts/menu.png";
 
 const TopBar = () => {
