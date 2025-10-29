@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { FiMoreVertical } from "react-icons/fi";
+import person from "../../assets/person/person1.jpg";
+import Like from "../../assets/posts/like.png";
+import heart from "../../assets/posts/heart.png";
 
 const Posts = ({ post }) => {
   const [like, setLike] = useState(post.like);
@@ -14,7 +17,7 @@ const Posts = ({ post }) => {
         <div className="flex justify-between items-center">
           <div className="flex  items-center">
             <img
-              src="./src/assets/person/person1.jpg"
+              src={person}
               alt=""
               className="w-8 h-8 object-cover rounded-[50%]"
             />
@@ -38,13 +41,13 @@ const Posts = ({ post }) => {
         <div className="flex items-center justify-between ">
           <div className="flex items-center">
             <img
-              src="./src/assets/posts/like.png"
+              src={Like}
               alt=""
               className="h-6 w-6 mr-[5px] cursor-pointer"
               onClick={handleLike}
             />
             <img
-              src="./src/assets/posts/heart.png"
+              src={heart}
               alt=""
               className="h-6 w-6 mr-[5px] cursor-pointer"
               onClick={handleLike}

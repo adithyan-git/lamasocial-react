@@ -1,22 +1,26 @@
 import { users } from "../../../dummyData";
 import OnlineFriends from "../online/OnlineFriends";
+import giftbox from "../../assets/posts/gift-box.png";
+import uiux from "../../assets/posts/ui-ux.png";
+import spider from "../../assets/person/spider.png";
+import jerry from "../../assets/person/jerry.webp";
+import mickeymouse from "../../assets/person/mickeymouse.jpeg";
+import tom from "../../assets/person/tom.webp";
+import pickachu from "../../assets/person/pickachu.png";
+
 const RightbarComponent = ({ Profile }) => {
   const HomeRightbar = () => {
     return (
       <>
         <div className="flex items-center ">
-          <img
-            src="./src/assets/posts/gift-box.png"
-            alt="img"
-            className="w-10 h-10 mr-2.5"
-          />
+          <img src={giftbox} alt="img" className="w-10 h-10 mr-2.5" />
           <span className="font-light text-[15px]">
             <b> Pola Foster </b> and <b>3 other friends </b> have a birthday
             toady
           </span>
         </div>
         <img
-          src="./src/assets/posts/ui-ux.png"
+          src={uiux}
           alt="img"
           className="w-full rounded-[10px] my-[30px] mx-0"
         />
@@ -54,8 +58,8 @@ const RightbarComponent = ({ Profile }) => {
         <div className="flex flex-wrap justify-between gap-2.5 max-[788px]:justify-center">
           <div className="flex flex-col mb-5 cursor-pointer">
             <img
-              src="./src/assets/person/spider.png"
-              alt=""
+              src={spider}
+              alt="img"
               className="w-[100px] h-[100px] object-cover rounded-[5px]"
             />
             <span className="rightbarname max-[792px]:text-[13px]">
@@ -74,7 +78,7 @@ const RightbarComponent = ({ Profile }) => {
           </div>
           <div className="flex flex-col mb-5 cursor-pointer">
             <img
-              src="./src/assets/person/jerry.webp"
+              src={jerry}
               alt=""
               className="w-[100px] h-[100px] object-cover rounded-[5px]"
             />
@@ -82,7 +86,7 @@ const RightbarComponent = ({ Profile }) => {
           </div>
           <div className="flex flex-col mb-5 cursor-pointer">
             <img
-              src="./src/assets/person/mickeymouse.jpeg"
+              src={mickeymouse}
               alt=""
               className="w-[100px] h-[100px] object-cover rounded-[5px]"
             />
@@ -92,15 +96,15 @@ const RightbarComponent = ({ Profile }) => {
           </div>
           <div className="flex flex-col mb-5 cursor-pointer">
             <img
-              src="./src/assets/person/tom.webp"
-              alt=""
+              src={tom}
+              alt="img"
               className="w-[100px] h-[100px] object-cover rounded-[5px]"
             />
             <span className="rightbarname max-[792px]:text-[13px]">tom</span>
           </div>
           <div className="flex flex-col mb-5 cursor-pointer">
             <img
-              src="./src/assets/person/pickachu.png"
+              src={pickachu.png}
               alt="img"
               className="w-[100px] h-[100px] object-cover rounded-[5px]"
             />

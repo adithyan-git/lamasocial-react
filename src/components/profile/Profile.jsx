@@ -3,6 +3,8 @@ import TopBar from "../topbar/TopBar";
 import LeftSidebar from "../sidebar/LeftSidebar";
 import FeedComponent from "../feed/FeedComponent";
 import RightbarComponent from "../rightbar/RightbarComponent";
+import marvel from "../../assets/person/marvel.jpg";
+import marve2 from "../../assets/person/marvel2.jpeg";
 
 const Profile = () => {
   return (
@@ -14,12 +16,12 @@ const Profile = () => {
           <div className="">
             <div className="h-80 relative max-[792px]:h-[250px]">
               <img
-                src="./src/assets/person/marvel.jpg"
+                src={marvel}
                 alt="img"
                 className="w-full h-[250px] object-cover max-[792px]:h-[200px]"
               />
               <img
-                src="./src/assets/person/marvel2.jpeg"
+                src={marve2}
                 alt="img"
                 className="w-[150px] h-[150px] rounded-[50%] object-cover absolute left-0 right-0 m-auto top-[150px] max-[792px]:top-[100px]  border-[3px] border-solid border-white"
               />

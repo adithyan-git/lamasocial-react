@@ -4,6 +4,9 @@ import { IoPerson } from "react-icons/io5";
 import { MdChat } from "react-icons/md";
 import { IoMdNotifications } from "react-icons/io";
 import LeftSidebar from "../sidebar/LeftSidebar";
+import menubar from "../../assets/person/menu-bar.png";
+import person from "../../assets/person/person1.jpg";
+import menu from "../../assets/posts/menu.png";
 
 const TopBar = () => {
   const [show, setShow] = useState(false);
@@ -29,14 +32,14 @@ const TopBar = () => {
       <div className=" ml-5 w-fit h-fit  bg-blue-500    max-[788px]:block min-[788px]:hidden ">
         {showSidebar ? (
           <img
-            src="./src/assets/person/menu-bar.png"
+            src={menubar}
             alt="img"
             className="h-6 w-6  object-cover"
             onClick={() => handleCloseSidebar()}
           />
         ) : (
           <img
-            src="./src/assets/person/menu-bar.png"
+            src={menubar}
             alt=""
             className="h-6 w-6 object-cover"
             onClick={() => handleSidebar()}
@@ -89,7 +92,7 @@ const TopBar = () => {
           </div>
         </div>
         <img
-          src="./src/assets/person/person1.jpg"
+          src={person}
           alt="img"
           className="w-8 h-8 rounded-[50%] object-cover"
         />
@@ -100,7 +103,7 @@ const TopBar = () => {
           <div className=" flex flex-col justify-around text-blue-500 ">
             <div className="flex justify-end mb-5">
               <img
-                src="./src/assets/person/person1.jpg"
+                src={person}
                 alt="img"
                 className="w-8 h-8 rounded-[50%] object-cover"
               />
@@ -149,14 +152,14 @@ const TopBar = () => {
       <div className=" min-[1025px]:hidden max-[1025px]:visible flex   justify-end max-[1025px]:flex-1 pr-5">
         {show ? (
           <img
-            src="./src/assets/posts/menu.png"
+            src={menu}
             alt=""
             className="w-6 h-6 "
             onClick={() => closeNav()}
           />
         ) : (
           <img
-            src="./src/assets/posts/menu.png"
+            src={menu}
             alt=""
             className="w-6 h-6 "
             onClick={() => showNav()}

@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmojiEmotions, MdLabel, MdPermMedia } from "react-icons/md";
+import person from "../../assets/person/person1.jpg";
 
 const Share = () => {
   return (
@@ -8,7 +9,7 @@ const Share = () => {
       <div className="p-2.5">
         <div className=" flex items-center">
           <img
-            src="./src/assets/person/person1.jpg"
+            src={person}
             alt="img"
             className="h-[50px] w-[50px] rounded-[50%] object-cover mr-2.5"
           />
