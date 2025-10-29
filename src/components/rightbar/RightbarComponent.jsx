@@ -105,7 +105,7 @@ const RightbarComponent = ({ Profile }) => {
           </div>
           <div className="flex flex-col mb-5 cursor-pointer">
             <img
-              src={pickachu.png}
+              src={pickachu}
               alt="img"
               className="w-[100px] h-[100px] object-cover rounded-[5px]"
             />
