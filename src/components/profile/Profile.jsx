@@ -1,15 +1,15 @@
 import React from "react";
 import TopBar from "../topbar/TopBar";
-import SideBar from "../sidebar/sidebar";
 import Feed from "../feed/feed";
 import RightBar from "../rightbar/rightbar";
+import LeftSidebar from "../sidebar/LeftSidebar";
 
 const Profile = () => {
   return (
     <div className="relative">
       <TopBar />
       <div className="flex w-full">
-        <SideBar />
+        <LeftSidebar />
         <div className="flex-9 ">
           <div className="">
             <div className="h-80 relative max-[792px]:h-[250px]">

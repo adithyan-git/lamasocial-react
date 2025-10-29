@@ -3,7 +3,7 @@ import { IoSearch } from "react-icons/io5";
 import { IoPerson } from "react-icons/io5";
 import { MdChat } from "react-icons/md";
 import { IoMdNotifications } from "react-icons/io";
-import SideBar from "../sidebar/sidebar";
+import LeftSidebar from "../sidebar/LeftSidebar";
 
 const TopBar = () => {
   const [show, setShow] = useState(false);
@@ -163,7 +163,7 @@ const TopBar = () => {
           />
         )}
       </div>
-      {showSidebar ? <SideBar status={showSidebar} /> : null}
+      {showSidebar ? <LeftSidebar status={showSidebar} /> : null}
     </div>
   );
 };

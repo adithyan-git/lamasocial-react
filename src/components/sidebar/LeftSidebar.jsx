@@ -12,7 +12,7 @@ import { RiCalendarEventFill } from "react-icons/ri";
 import CloseFriends from "../closefriend/CloseFriends";
 import { users } from "../../../dummyData";
 
-const SideBar = ({ status }) => {
+const LeftSidebar = ({ status }) => {
   const sideBarArray = [
     {
       id: 1,
@@ -122,4 +122,4 @@ const SideBar = ({ status }) => {
   );
 };
 
-export default SideBar;
+export default LeftSidebar;
